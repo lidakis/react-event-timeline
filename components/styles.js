@@ -1,4 +1,9 @@
-let style = {
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var style = {
 
   container: {
     position: 'relative',
@@ -13,7 +18,7 @@ let style = {
     position: 'absolute',
     top: 0,
     height: '100%',
-    width: 2,
+    width: 1,
     background: '#a0b2b8'
   },
   'containerBefore--left': {
@@ -82,6 +87,9 @@ let style = {
   time: {
     marginBottom: 3
   },
+    timeStyle:{
+      color:'#ffffff',
+    },
   subtitle: {
     marginTop: 2,
     fontSize: '85%',
@@ -133,6 +141,6 @@ let style = {
     top: '50%',
     marginTop: '9px'
   }
-}
+};
 
-export default style
+exports.default = style;
